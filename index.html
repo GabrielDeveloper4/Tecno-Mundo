@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TecnoMundo</title>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.dataTables.min.js"></script>
+	<link rel="stylesheet" href="css/styles.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/3fd3631778.js" crossorigin="anonymous"></script>
+	<script src="js/script.js"></script>
+
+</head>
+
+<body>
+	<header>
+	<div class="header-top">
+		<div class="cont-nav">
+			<a href="index.html" class="logo">TecnoMundo</a>
+		</a>
+		<div class="navegacion">
+			<input type="search" placeholder="Buscar . . ." id="inputBusqueda">
+		</div>
+		<div style="display: flex; align-items: center;     height: 100%;">
+			<nav><a href="index.html" class="nav-link">Inicio</a>
+				
+				<a href="" class="nav-link">Sobre Nosotros</a>
+			</nav >
+			
+			<div class="carrito_cp">
+				<a href="" style="height: 100%;
+				display: flex;
+				align-items: center;"><img src="imgs/ic_fluent_cart_24_filled.png" alt="" ></a>
+			</div>
+		</div>
+		</div>
+		
+	</div>
+	
+	<div class="search" id="search">	<!--BUSCADOR-->
+		<table class="search-table" id="searchTable">
+			<thead>
+				<tr>
+					<td></td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><a href="#">Arduino</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Ultrasonido</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Jumpers</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">JoyStick</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Protoboard</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Bluetooth</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Flame</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Luces</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Heartbeat</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Light Cup</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Hall Magnetic</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Relay</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Sensor</a></td>
+				</tr>
+				<tr>
+					<td><a href="#">Luces</a></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</header>
+<main>
+	<div >
+		<div class="espacio">
+
+		</div>
+	</div>
+	<div class="contenedor">
+		<div class="menu-btn">
+			<i class='bx bx-menu' ></i>
+		</div>
+		<aside class="side-bar">
+			<div class="close-btn">
+				<i class='bx bx-x' ></i>
+			</div>
+			<div class="menu">
+				<div class="item"><a href="#"><i class="fa-solid fa-house"></i>Inicio</a></div>
+				<div class="item">
+					<a href="#" class="sub-btn"><i class='bx bxs-wallet'></i>Placas<i class="fas fa-angle-right dropdown"></i></a>
+					<div class="sub-menu">
+						<a href="#" class="sub-item">ESP</a>
+						<a href="#" class="sub-item">FPGA</a>
+						<a href="#" class="sub-item">STM32</a>
+					</div>
+				</div>
+				<div class="item" class="sub-btn">
+					<a href="#" class="sub-btn"><i class='bx bxs-book-content' ></i>Sensor<i class="fas fa-angle-right dropdown"></i></a>
+					<div class="sub-menu">
+						<a href="#" class="sub-item">Item 01</a>
+						<a href="#" class="sub-item">Item 01</a>
+						<a href="#" class="sub-item">Item 01</a>
+					</div>
+				</div>
+				<div class="item" class="sub-btn">
+					<a href="#" class="sub-btn"><i class="fa-sharp fa-solid fa-mobile"></i>Módulo<i class="fas fa-angle-right dropdown"></i></a>
+					<div class="sub-menu">
+						
+						<a href="#" class="sub-item">Item 01</a>
+						<a href="#" class="sub-item">Item 01</a>
+						<a href="#" class="sub-item">Item 01</a>
+					</div>
+				</div>
+				<div class="item" class="sub-btn">
+					<a href="#" class="sub-btn"><i class='bx bxs-rename'></i>Motores<i class="fas fa-angle-right dropdown"></i></a>
+					<div class="sub-menu">
+						<a href="#" class="sub-item">Item 01</a>
+						<a href="#" class="sub-item">Item 01</a>
+						<a href="#" class="sub-item">Item 01</a>
+					</div>
+				</div>
+				<div class="item"><a href="#"><i class='bx bxs-help-circle' ></i>Ayuda</a></div>
+			</div>
+		</aside>
+	<div class="container-items">
+
+		<div class="item">
+			<figure>
+				<img
+					src="imgs/arduino1.jpg"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Arduino Uno R3</h2>
+				<h3>M.C.C ATmega328</h3>
+				<p class="price">100$</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="imgs/ultrasonido.jpg"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Ultrasonido</h2>
+				<h3>HC-SR04</h3>
+				<p class="price">40$</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="imgs/jumpers.JPG"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Jumnpers</h2>
+				<h3>
+					Macho-Hembra
+				</h3>
+				<p class="price">12$</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="imgs/protoboard.jpg"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Protoboard</h2>
+				<h3>830 PUNTOS</h3>
+				<p class="price">20$</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="imgs/hc-05.jpg"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Bluetooth</h2>
+				<h3>HC-05</h3>
+				<p class="price">12$</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="imgs/joystick.jpg"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>JoyStick Analógico</h2>
+				<h3>M.C.C ATmega328P</h3>
+				<p class="price">10$</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="imgs/flame.jpg"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Flame</h2>
+				<h3>Lorem ipsum dolor sit amet conse</h3>
+				<p class="price">14$</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="imgs/modulorbg.jpg"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Modulo RGB</h2>
+				<h3>Lorem ipsum dolor sit amet conse</h3>
+				<p class="price">15$</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="imgs/heartbeat.JPG"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Heartbeat</h2>
+				<h3>Lorem ipsum dolor sit amet conse</h3>
+				<p class="price">11$</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="imgs/light_cup.JPG"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Light Cup</h2>
+				<h3>Lorem ipsum dolor sit amet conse</h3>
+				<p class="price">13$</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="imgs/hall_magnetic.JPG"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Hall Magnetic</h2>
+				<h3>Lorem ipsum dolor sit amet conse</h3>
+				<p class="price">14$</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="imgs/relay.JPG"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Relay</h2>
+				<h3>Lorem ipsum dolor sit amet conse</h3>
+				<p class="price">17$</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="imgs/Linear_hall.jpg"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Linear Hall</h2>
+				<h3>Lorem ipsum dolor sit amet conse</h3>
+				<p class="price">17$</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="imgs/SMD_RGB.jpg"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>SMD RGB</h2>
+				<h3>Lorem ipsum dolor sit amet conse</h3>
+				<p class="price">17$</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="imgs/7_Color_Flash.jpg"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>7 Color Flash</h2>
+				<h3>Lorem ipsum dolor sit amet conse</h3>
+				<p class="price">17$</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="imgs/tilit_switch.jpg"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Tilit Switch</h2>
+				<h3>Lorem ipsum dolor sit amet conse</h3>
+				<p class="price">17$</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="imgs/Temp.jpg"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Temp</h2>
+				<h3>Lorem ipsum dolor sit amet conse</h3>
+				<p class="price">17$</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+		
+		<div class="item">
+			<figure>
+				<img
+					src="imgs/big_sound.jpg"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Big Sound</h2>
+				<h3>Lorem ipsum dolor sit amet conse</h3>
+				<p class="price">17$</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="imgs/Touch.jpg"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Touch</h2>
+				<h3>Lorem ipsum dolor sit amet conse</h3>
+				<p class="price">17$</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="imgs/tow-color.jpg"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>tow-color</h2>
+				<h3>Lorem ipsum dolor sit amet conse</h3>
+				<p class="price">17$</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="imgs/laser_emit.jpg"
+					alt="producto"
+				/>
+			</figure>
+			<div class="info-product">
+				<h2>Laser emit</h2>
+				<h3>Lorem ipsum dolor sit amet conse</h3>
+				<p class="price">17$</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+		
+	 </div>
+	</main>
+	<footer class="pie-pagina">
+		<div class="grupo-1">
+			<div class="box">
+				<figure>
+					<a href="index.html" class="logo">TecnoMundo</a>
+				</figure>
+			</div>
+			<div class="box">
+				<h2>SOBRE NOSOTROS</h2>
+				<p>Empresa dedica a la venta de productos electronicos.</p>
+				<p>Estamos a tu alcance desde Enero de 2023</p>
+			</div>
+			<div class="box" id="SIGUENOS">
+				<h2>SIGUENOS</h2>
+				<div class="red-social">
+					<a href="#" class="fa fa-facebook"></a>
+					<a href="#" class="fa fa-instagram"></a>
+					<a href="#" class="fa fa-twitter"></a>
+					<a href="#" class="fa fa-youtube"></a>
+				</div>
+				<div class="grupo-2">
+					<small>&copy; 2021 <b>GuimarShop</b> - Todos los Derechos Autorizados</small>
+				</div>
+		</div>
+	</footer>
+	<script src="js/buscador.js"></script>
+	
+</body>
+</html>
